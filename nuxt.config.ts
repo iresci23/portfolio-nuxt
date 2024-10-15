@@ -2,10 +2,22 @@
 export default defineNuxtConfig({
   app: {
     head: {
+      title: "Irelene",
       charset: 'utf-8',
       viewport: 'width=device-width, initial-scale=1',
+      meta: [
+        { name: "title", content: "Irelene - Full-stack Developer Portfolio" },
+        {
+          name: "description",
+          content:
+            "I enjoy building impactful web solutions, from simple websites to complex apps.",
+        },
+        {
+          name: "robots",
+          content: "noindex, nofollow",
+        },
+      ],
     },
-    // pageTransition: { name: 'page', mode: 'out-in' }
   },
   compatibilityDate: '2024-04-03',
   devtools: { enabled: true },

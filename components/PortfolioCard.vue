@@ -11,7 +11,9 @@
       >
         <img :src="image" alt="octadoc" class="rounded-t" />
         <div class="card-text group-hover/card:animate-visible">
-          <span class="text-white font-space-grotesk px-6">{{ text }}</span>
+          <span class="text-white font-space-grotesk pl-2 pr-4">{{
+            text
+          }}</span>
           <div class="flex gap-2 justify-center pt-4">
             <CommonIconTech :tech="tech" />
           </div>

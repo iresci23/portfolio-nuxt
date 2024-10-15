@@ -22,22 +22,22 @@
 
           <h2 class="font-roboto mb-4 text-2xl">Skills & Tools</h2>
           <div
-            class="grid grid-cols-1 lg:grid-cols-3 gap-12 font-space-grotesk mb-12"
+            class="grid grid-cols-1 lg:grid-cols-2 gap-12 font-space-grotesk mb-12"
           >
             <div>
               <ul class="text-md leading-8">
-                <li>Laravel</li>
-                <li>Vue / Nuxt</li>
-                <li>TailwindCSS</li>
-                <li>Sass / Less</li>
-                <li>React</li>
-                <li>Typescript</li>
+                <li>Laravel, Symfony, Yii</li>
+                <li>Vue, Vuex, Vue Pinia, Nuxt</li>
+                <li>TailwindCSS, Sass / Less</li>
+                <li>React, Redux, Formik</li>
+                <li>React Material UI, Styled Components</li>
+                <li>Javascript, Typescript, JQuery</li>
                 <li>Jest Testing Library</li>
-                <li>Wordpress</li>
-                <li>WooCommerce</li>
+                <li>Wordpress, Elementor, Divi</li>
+                <li>WooCommerce, Custom Plugin Development</li>
               </ul>
             </div>
-            <div class="col-span-2">
+            <div>
               <ul class="text-md leading-8">
                 <li>RESTful API Development</li>
                 <li>Stripe / Authorize.net / Paypal Integrations</li>
