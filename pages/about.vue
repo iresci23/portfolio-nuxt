@@ -51,9 +51,8 @@
               </ul>
             </div>
           </div>
-
           <h2 class="font-roboto mb-4 text-2xl">Contact</h2>
-          <div class="flex gap-4">
+          <div class="flex gap-4 mb-2">
             <NuxtLink
               to="https://github.com/iresci23/"
               class="duration-100 hover:scale-125"
@@ -75,8 +74,25 @@
               <CommonIconMail />
             </NuxtLink>
           </div>
+          <div class="underline">
+            <button
+              @click="downloadResume"
+              class="underline text-orange-600 hover:text-orange-500"
+            >
+              Download Resume
+            </button>
+          </div>
         </div>
       </div>
     </NuxtLayout>
   </div>
 </template>
+<script setup lang="ts">
+const downloadResume = () => {
+  const link = document.createElement("a");
+  link.href = "/Irelene_Cosicol_Resume_2024.pdf";
+  link.download = "Irelene_Cosicol_Resume_2024.pdf";
+  link.target = "_blank";
+  link.click();
+};
+</script>
