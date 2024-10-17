@@ -3,10 +3,10 @@
     class="fixed top-0 bg-white z-50 w-full flex justify-between xl:bg-transparent"
   >
     <div
-      class="flex justify-center items-center min-w-8 font-bitter animate-fade-in typewriter z-50"
+      class="flex justify-center items-center min-w-8 font-bitter animate-fade-in z-50 tracking-widest"
     >
       <NuxtLink to="/" class="text-2xl font-bold px-8">
-        <div class="irelene-logo">I</div>
+        <div class="irelene-logo">IRELENE</div>
       </NuxtLink>
     </div>
     <div class="font-bitter animate-fade-in z-50">
@@ -35,13 +35,23 @@
 const route = useRoute();
 
 onMounted(() => {
-  typeWriter("IRELENE", 0, function () {});
+  // If the user has already visited the site, don't animate the logo
+  if (localStorage.getItem("initDone") == "1") return;
+  var logoName = document.querySelector(".irelene-logo");
+  if (!logoName) return;
+
+  if (logoName.parentElement) {
+    logoName.parentElement.classList.add("typewriter");
+  }
+
+  typeWriter("IRELENE", 0, function () {
+    localStorage.setItem("initDone", "1");
+  });
 
   function typeWriter(text: string, i: number, fnCallback: Function) {
-    // chekc if text isn't finished yet
+    // check if text isn't finished yet
     if (i < text.length) {
       // add next character to h1
-      var logoName = document.querySelector(".irelene-logo");
       if (!logoName) return;
       logoName.innerHTML =
         text.substring(0, i + 1) + '<span aria-hidden="true"></span>';
@@ -62,9 +72,9 @@ onMounted(() => {
 
 <style>
 .typewriter div {
-  letter-spacing: 0.15em;
+  letter-spacing: 0.1em;
   border-right: 0.15em solid orange;
-  animation: blink-caret 0.75s step-end 6 normal forwards;
+  animation: blink-caret 0.75s step-end 4 normal forwards;
 }
 .typewriter a {
   display: block;

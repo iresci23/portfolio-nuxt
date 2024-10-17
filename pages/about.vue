@@ -26,28 +26,28 @@
           >
             <div>
               <ul class="text-md leading-8">
-                <li>Laravel, Symfony, Yii</li>
-                <li>Vue, Vuex, Vue Pinia, Nuxt</li>
-                <li>TailwindCSS, Sass / Less</li>
+                <li>Laravel</li>
+                <li>Vue, Vue Pinia</li>
+                <li>Nuxt</li>
+                <li>TailwindCSS, Sass</li>
                 <li>React, Redux, Formik</li>
-                <li>React Material UI, Styled Components</li>
+                <li>Styled Components</li>
                 <li>Javascript, Typescript, JQuery</li>
-                <li>Jest Testing Library</li>
-                <li>Wordpress, Elementor, Divi</li>
-                <li>WooCommerce, Custom Plugin Development</li>
+                <li>Wordpress, Elementor/Divi</li>
+                <li>WooCommerce</li>
+                <li>Custom WP Plugin Development</li>
               </ul>
             </div>
             <div>
               <ul class="text-md leading-8">
                 <li>RESTful API Development</li>
-                <li>Stripe / Authorize.net / Paypal Integrations</li>
-                <li>MySQL / MariaDB / PostgreSQL</li>
-                <li>CouchDB / MongoDB</li>
-                <li>Docker / Jenkins</li>
-                <li>Git, Composer, Vite / Webpack</li>
-                <li>AWS EC2, S3, Route53, CodeCommit</li>
+                <li>Payment Integrations</li>
+                <li>MySQL, PostgreSQL</li>
+                <li>CouchDB, MongoDB</li>
+                <li>Git, Vite, Docker, Jenkins</li>
+                <li>AWS EC2, S3, Route53</li>
                 <li>Digital Ocean, Linode, WPEngine</li>
-                <li>Cpanel / HM, Domain management</li>
+                <li>Cpanel / WHM, Domain management</li>
               </ul>
             </div>
           </div>
