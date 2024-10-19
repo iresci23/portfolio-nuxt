@@ -38,7 +38,7 @@
               professionals, especially GPs, by streamlining the process of
               taking clinical notes. The task at hand is to refresh and
               modernize the platform's UI/UX and implement new features that
-              wasn't available in the previous version.
+              weren't available in the previous version.
             </p>
             <p>
               To get more information about this project, please visit
