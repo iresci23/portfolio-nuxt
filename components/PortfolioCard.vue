@@ -14,17 +14,18 @@
           <span class="text-white font-space-grotesk pl-2 pr-4">{{
             text
           }}</span>
-          <div class="flex gap-2 justify-center pt-4">
-            <CommonIconTech :tech="tech" />
-          </div>
+          <div class="flex gap-2 justify-center pt-4"></div>
         </div>
       </div>
-      <div class="p-2 flex">
+      <div class="p-2 flex justify-between">
         <h4
           class="font-main text-md font-bold capitalize text-gray-900 transition-all duration-300 group-hover/card:text-white z-40"
         >
           {{ title }}
         </h4>
+        <div class="flex gap-2 items-center">
+          <CommonIconTech :tech="tech" />
+        </div>
       </div>
       <span
         class="group/scaler absolute bottom-[-5px] right-[-5px] z-0 h-1 w-1 rounded-full bg-neutral-900 opacity-95 transition-all duration-500 xl:duration-300 group-hover/card:scale-[450] xl:group-hover/card:scale-[180]"

@@ -58,28 +58,28 @@ const projects = [
     text: "An agency website for a nonprofit creating VR experiences for education and therapy",
     link: "/showcase/vrtality",
     image: "/images/vrtality.png",
-    tech: ["wordpress-white", "vue", "sass"],
+    tech: ["wordpress", "vue", "sass"],
   },
   {
     title: "Secor Online",
     text: "An eCommerce website that offers a wide range of high-quality industrial supplies",
     link: "/showcase/secoronline",
     image: "/images/secoronline.png",
-    tech: ["wordpress-white", "elementor-white", "woocommerce"],
+    tech: ["wordpress", "elementor", "woocommerce"],
   },
   {
     title: "HDP User Group",
     text: "A membership website that includes project and event management features",
     link: "/showcase/hdpusergroup",
     image: "/images/hdpusergroup.png",
-    tech: ["wordpress-white", "vue", "sass"],
+    tech: ["wordpress", "vue", "sass"],
   },
   {
     title: "Sample Ballot Generator",
     text: "(Personal Project) A tool that generates sample ballots for Philippine elections",
     link: "/showcase/sampleballotgenerator",
     image: "/images/sampleballotgen.png",
-    tech: ["wordpress-white", "vue", "sass"],
+    tech: ["laravel", "vue", "tailwindcss"],
   },
 ];
 </script>
