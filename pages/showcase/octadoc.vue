@@ -10,8 +10,8 @@
       <template #role>
         <p class="mb-2"><strong>Role:</strong> Full-stack Developer</p>
         <p class="mb-2">
-          Libraries / Frameworks used: Laravel, Laravel Spark, VueJS, Vue Pinia,
-          TailwindCSS
+          Libraries / Frameworks used: Laravel, Laravel Scout, Laravel Spark,
+          VueJS, Vue Pinia, TailwindCSS
         </p>
         <p class="mb-2">Deployment Tools: AWS EC2, Route53, CodeCommit</p>
       </template>
@@ -54,12 +54,6 @@
           <div class="mb-8">
             <h2 class="text-3xl tracking-wide mb-1">Development work.</h2>
             <p class="mb-2">
-              As the sole developer on this project, I handled everything from
-              planning to deployment. I used Laravel and VueJS, and also
-              utilized TailwindCSS for styling and Vue Pinia for state
-              management.
-            </p>
-            <p class="mb-2">
               The project was divided into the following phases:
             </p>
             <h3 class="font-semibold">
@@ -68,13 +62,6 @@
             <p class="ml-6 mb-3">
               Conversion of the new UI designs into responsive and reusable
               VueJS components.
-            </p>
-            <h3 class="font-semibold">
-              <span class="mx-2 text-orange-400">&#8250;</span>Laravel Upgrade
-            </h3>
-            <p class="ml-6 mb-3">
-              The codebase was upgraded to the latest Laravel version, with
-              extensive cleanup and restructuring to support the new UI flow.
             </p>
             <h3 class="font-semibold">
               <span class="mx-2 text-orange-400">&#8250;</span>Database Schema
@@ -97,8 +84,8 @@
               New Features
             </h3>
             <p class="ml-6 mb-3">
-              Admin Controls, Tagging System, Improved Searching, Drag-n-drop,
-              Template Sharing
+              Admin Controls, Tagging System, Improved Searching using
+              <i>Laravel Scout</i>, Drag-n-drop, Template Sharing
             </p>
           </div>
           <div class="mb-12">

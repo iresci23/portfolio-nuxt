@@ -37,10 +37,10 @@
           <div class="mb-8 mt-16">
             <h2 class="text-3xl tracking-wide mb-1">Context.</h2>
             <p class="mb-2">
-              This personal project was created for the 2022 Philippine
-              elections. It includes a form wizard that allows users to choose
-              their preferred candidates for each electoral position, then
-              generates a sample ballot with the selected candidates.
+              A personal project created for the 2022 Philippine Election. It
+              features a form wizard that allows users to choose their preferred
+              candidates for each electoral position, then generates a printable
+              Sample Ballot with the selected candidates.
             </p>
             <p>
               You can find the project's source code at Github:
