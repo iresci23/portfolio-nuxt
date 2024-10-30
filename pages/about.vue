@@ -90,7 +90,7 @@
 <script setup lang="ts">
 const downloadResume = () => {
   const link = document.createElement("a");
-  link.href = "/downloads/Irelene_Cosicol_Resume_2024.pdf";
+  link.href = "/downloads/Irelene_Cosicol_CV_With_Work_Samples.pdf";
   link.download = "Irelene_Cosicol_Resume_2024.pdf";
   link.target = "_blank";
   link.click();
